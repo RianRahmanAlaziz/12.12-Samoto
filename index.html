@@ -58,39 +58,40 @@
 </head>
 
 <body>
-    <section class="py-4 px-2" style="background:url('images/section-home-hero-bg.png'); background-size:cover; min-height: 100vh;">
-        
+    <section class="sect-block py-2 px-md-0" style="background: url('images/section-home-hero-bg.png') no-repeat center center; background-size: cover; min-height: 100vh;">
         <div class="ovn">
             <img src="images/lg.png" alt="" srcset="" class="logo">
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 order-2 offset-md-1">
-                    <a href="/" class="d-none d-md-block pt-5 pb-1">
-                        <img src="images/1212.png" alt="" class="img-fluid">
-                    </a>
-                    <div class="d-block pt-3 pt-md-5">
-                        <img src="images/pr.png" alt="" class="img-fluid">
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class=" col-md-10 offset-md-1">
-                            <a href="https://wa.me/+6281188802613" target="_blank">
-                                <img src="images/beli.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
+            <div class="row mt-5">
+                <!-- Gambar 3.png, di layar besar di posisi pertama, di layar kecil kedua -->
+                <div class="col-lg-6 d-flex justify-content-center align-items-center ">
+                    <img class="img-fluid mt-5 pt-3" src="images/3.png">
                 </div>
-                <div class="col-md-6 order-1 order-md-2">
-                    <a href="/" class="d-block d-md-none pt-5 mt-5 pb-3">
-                        <img src="images/1212.png" alt="" class="img-fluid">
-                    </a>
-                    <img src="images/Vector Smart Object.png" alt="" class="img-fluid mt-3 mt-md-0">
+                <!-- Gambar lg.png, tetap di posisi pertama di layar kecil, kedua di layar besar -->
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center ">
+                    <!-- Gambar 6.png, di layar besar tetap di bawah lg.png, di layar kecil di bawah gambar 3.png -->
+                    <img class="img-fluid mt-5 " src="images/6.png" style="width: 300px;">
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12 d-flex justify-content-center">
+                    <img class="img-fluid mt-3" src="images/avr.png" style="max-width: 100%;">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 d-flex flex-column justify-content-center ">
+                    <a href="https://wa.me/+6281188802613" target="_blank"> <img class="img-fluid " src="images/buy.png" style="width: 200px;"></a>
+                    <img class="img-fluid mt-4" src="images/range.png" style="width: 400px;">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img class="img-fluid mt-4" src="images/harga.png" style="max-width: 100%;">
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section class="py-4 px-1" style="background:url('images/BG.png'); background-size:cover; min-height: 100vh;">
         <div class="container">
             <div class="row">
@@ -105,16 +106,15 @@
     </section>
 
     <section class="py-4 px-2" style="background:url('images/bg2.png'); background-size:cover; min-height: 100vh;">
-        
         <div class="container">
             <div class="row">
-                <div class="col-md-5 mt-4 order-2 offset-md-1">
+                <div class="col-lg-5 mt-4 order-2 offset-md-0">
                     <div class="d-block pt-3 pt-md-5">
                         <img src="images/promo.png" alt="" class="img-fluid">
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-12 col-md-10 offset-md-1">
+                        <div class="col-md-10  offset-md-1  d-flex justify-content-center">
                             <a href="https://wa.me/+6281188802613" target="_blank"><img src="images/beli.png" alt="" class="img-fluid"></a>
                         </div>
                     </div>

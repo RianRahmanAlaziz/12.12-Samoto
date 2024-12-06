@@ -13,10 +13,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family:'Goldman', sans-serif; color:var(--primary-color); font-weight:700;
 }
 
-/* CLASSES */
-.container { max-width:1100px; }
-
-
 
 
 section { display:flex; position:relative; justify-content:center; align-items:center; width:100%; min-height:100px; }
@@ -34,6 +30,7 @@ section { display:flex; position:relative; justify-content:center; align-items:c
 .copyr { background-color:var(--primary-color); }
 
 
+
 .orn {
     position:absolute; height:100%; width:100%; top:0; left:0; z-index:1;
     & > img { max-width:210px; }
@@ -44,23 +41,33 @@ section { display:flex; position:relative; justify-content:center; align-items:c
 }
 
 .ovn {
-    position:absolute; height:100%; width:100%; top:0; left:0; z-index:1;
+    position:absolute; height:100%; width:100%; top:0; right:0; z-index:1;
     & > img { max-width:210px; }
     .logo {
         position:absolute; 
-        left:5%; 
+        right:25%; 
         top:5%;
     
     }
+}
+
+.header {
+    position:absolute; 
+    left:5%; 
+    top:5%;
+
 }
 
 .orn + .container  { z-index:5; }
 .ovn + .container  { z-index:5; }
 
 
+
 @media all and (max-width: 768px) {
     .site-footer strong.empty { display:none; }
     .orn { display:none; }
+
+   
 }
 
 
